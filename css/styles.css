@@ -1,0 +1,61 @@
+.mainContainer {
+  background: linear-gradient(90deg, rgb(0, 25, 65), rgb(37, 119, 250));
+  height: 100vh;
+  color: whitesmoke;
+}
+
+.mainContainer h1 {
+  width: 200px;
+  padding: 100px 0px 0px 40px;
+}
+
+.mainContainer p {
+  font-size: 1.5rem;
+  padding: 20px 0px 0px 40px;
+}
+
+.mainContainer button {
+  margin: 20px 0px 0px 40px;
+}
+
+.registerContainer {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  width: 55%;
+}
+
+.registerContainer table {
+  width: 100%;
+}
+
+.registerContainer h2 {
+  color: rgb(27, 27, 27);
+}
+
+.registerContainer table td {
+  padding: 10px 5px;
+}
+
+.btnLogin {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 8px;
+}
+
+.btnLogin:hover {
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+}
