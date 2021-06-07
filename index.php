@@ -20,7 +20,13 @@
         <div class="registerContainer">
             <h2>get yourself registered for vacant places</h2>
             <br>
+            <form method="post" action="register.php">
             <table>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" name="txtId" placeholder="ID *" class="form-control">
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <input type="text" name="txtFullName" placeholder="Full Name *" class="form-control">
@@ -52,6 +58,7 @@
                     </td>
                 </tr>
             </table>
+            </form>
         </div>
 
     </div>
