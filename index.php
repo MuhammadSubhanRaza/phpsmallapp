@@ -9,7 +9,7 @@
     
     <div class="mainContainer">
 
-        <a href="#" class="btnLogin">LOGIN</a>
+        <a href="loginpge.php" class="btnLogin">LOGIN</a>
 
         <h1>Welcome !</h1>
         <p>Welcome to the JOB portal app</p>

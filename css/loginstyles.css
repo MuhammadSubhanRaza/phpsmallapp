@@ -1,0 +1,22 @@
+.loginContainer {
+  background-color: rgb(230, 230, 230);
+  padding: 40px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginContainer h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.mainContainer {
+  background-color: rgb(246, 246, 246);
+  width: 90%;
+  box-sizing: border-box;
+  padding: 40px;
+  margin: auto;
+}
